@@ -1,0 +1,164 @@
+@font-face {
+    font-family: myFirstFont;
+    src: local(VisbyRoundCF-Regular);
+ }
+
+ @font-face {
+    font-family: myFirstFont;
+    src: local(VisbyRoundCF-DemiBold);
+    font-weight: bold;
+ }
+
+ * {
+    font-family: myFirstFont;
+ }
+
+.header div{
+    display: flex;
+    justify-content: flex-end;
+    color: #3F3F3F;
+    margin: 20px 0px;
+}
+
+.boxbanner{
+    width: 1352px;
+    height: 510px;
+    margin-top: 40px;
+    left: 50px;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 16px;
+}
+
+.boxwrap{
+    display: flex;
+    justify-content: center;
+}
+
+.boxbanner img{
+    width: 100%;
+}
+
+.boxnamapj{
+    margin-top: 24px;
+}
+
+.namapj div{
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #3F3F3F;
+}
+
+.namapj{
+    font-size: 16px;
+    color: #3F3F3F;
+    margin-bottom: 16px;
+}
+
+.boxaboutpj{
+    margin-top: 24px;
+    font-size: 24px;
+    color: #3F3F3F;
+}
+
+.colortxt{
+    color: #3F3F3F;
+}
+.ml-5{
+    margin-left: 36px;
+}
+
+.boxaboutpj p{
+    font-size: 16px;
+    color: #3F3F3F;
+}
+
+.pjkanan{
+    width: 50%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pjkiri{
+    width: 50%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pjkanan div{
+    margin-bottom: 16px;
+    color: #3F3F3F;
+    flex-direction: row;
+}
+
+.pjkanan span{
+    color: #FE644F;
+}
+
+.pjspliter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pjkiri div{
+    margin-bottom: 16px;
+    flex-direction: row;
+    color: #3F3F3F;
+}
+
+.pjkiri span{
+    color: #FE644F;
+}
+
+.boxdp{
+    font-size: 24px;
+    color: #3F3F3F;
+    margin-left: 60px;
+    position: relative;
+}
+
+.dpdash{
+    
+    margin-top: 16px;
+    padding-left: 32px;
+    font-size: 24px;
+    counter-reset: section;
+    bottom: 80%;
+}
+
+.dashwrap{
+    border-left: 5px dashed #FE644F;
+    position: absolute;
+    top: 0;
+    left: -6px;
+    bottom: 44px;
+}
+
+.dpdash div{
+    font-size: 16px;
+}
+
+.dptxt {
+    position: relative;
+}
+
+.dptxt h2 b::before{
+    position: absolute;
+    counter-increment: section;
+    content: counter(section);
+    left: -63px;
+    top: -13px;
+    background-color: #FE644F;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.dptxt h2{
+    color: #FE644F;
+}
