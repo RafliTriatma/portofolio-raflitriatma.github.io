@@ -1,16 +1,7 @@
-@font-face {
-    font-family: myFirstFont;
-    src: local(VisbyRoundCF-Regular);
- }
-
- @font-face {
-    font-family: myFirstFont;
-    src: local(VisbyRoundCF-DemiBold);
-    font-weight: bold;
- }
+@import "./Fonts/Visby-Round-CF/stylesheet.css";
 
  * {
-    font-family: myFirstFont;
+    font-family: "Visby Round CF", sans-serif;
 }
 
 :root{
