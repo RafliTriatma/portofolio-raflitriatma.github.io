@@ -250,7 +250,7 @@
 }
 
 .boxskill{
-    box-shadow: 0 4px 8px 0 rgba(185, 185, 185, 0.2), 0 6px 20px 0 rgba(160, 160, 160, 0.6);
+    /* box-shadow: 0 4px 8px 0 rgba(185, 185, 185, 0.2), 0 6px 20px 0 rgba(160, 160, 160, 0.6); */
     border-radius: 16px;
     border: 0px solid #C4C4C4;
     margin-top: 40px;
